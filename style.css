@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #f2f3ff;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color: #50539F;
+}
+
+.icon img{
+    width: 70px;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #50539F;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2em;
+    text-underline-offset: 0.3em;
+    text-decoration-skip-ink: none;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80%;
+  }
+  .image2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 68%;
+  }
+
+  h1.name {
+    font-weight: bold;
+    color: #50539F;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .left-section h1 {
+    font-size: 70px;
+  }
+
+img.svg {
+    width: 45px;
+    margin: 0;
+    
+  }
+
+.icons{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+
+  button.btn{
+    background-color: #50539F;
+    width: 50%;
+    border-radius: 50px;
+    border: none;
+  }
+
+  img.wave {
+    width: 100%;
+    height: 100%;
+  }
+
+  .wave {
+    /* height: 150px; */
+    bottom: 0;
+  }
+
