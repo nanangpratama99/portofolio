@@ -42,12 +42,10 @@ h4 {
 .contant a {
   background-color: #50539F;
   border-radius: 60px;
-  color: #f2f3ff;
 }
 
 .contant a:hover {
   background-color: #595cad;
-  color: #f2f3ff;
 }
 
 .parent {
@@ -98,6 +96,15 @@ img.svg {
     width: 50%;
     border-radius: 50px;
     border: none;
+  }
+
+  button.btn:hover{
+    background-color: #5f61a9;
+  }
+
+  img.burger-menu {
+    width: 50px;
+    margin-right: 20px;
   }
 
   img.wave {
