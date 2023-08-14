@@ -6,8 +6,6 @@
 }
 
 body {
-    /* height: 100vh; */
-    /* width: 100vw; */
     background-color: #f2f3ff;
 }
 
@@ -114,4 +112,97 @@ img.svg {
     /* height: 150px; */
     bottom: 0;
   }
+
+/* (typical for mobile devices) */
+@media (max-width: 576px) {
+  .col-lg-6 h1 {
+    font-size: 2rem;
+    color: #50539F;
+  }
+
+  img.svg{
+    background-color: white;
+    margin: 13px 5px;
+    border-radius: 100%;
+  }
+  img.svg:hover{
+    cursor: pointer;
+   
+  }
+  .right-section {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    bottom: 9rem;
+  }
+
+  h1.job{
+    font-size: 1rem;
+  }
+
+  h1.greeting {
+    font-size: 1rem;
+    color: grey;
+  }
+
+  .icons {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+  }
+
+  button.btn {
+    width: 35%;
+    height: 35px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: white;
+    color: #50539F;
+  }
+  button.btn:hover {
+    width: 30%;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: white;
+    color: #5f62a8;
+  }
+
+  .icons {
+    background-color: #50539F;
+  }
+
+  .wave img {
+    display: none;
+  }
+
+  .icon img{
+    width: 50px;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 80%;
+}
+.image2 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 90%;
+}
+
+}
+
+
+
+
+   
+  
 
